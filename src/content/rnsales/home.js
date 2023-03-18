@@ -80,7 +80,7 @@ export function HomePage() {
                         alt={it.name}
                         style={{ cursor: 'pointer', margin: 'auto' }}
                       />
-                      {/* </Link> */}
+
                       <Typography
                         variant="h4"
                         mt={2}
@@ -88,7 +88,8 @@ export function HomePage() {
                           cursor: 'pointer',
                           '&:hover': {
                             color: 'blue'
-                          }
+                          },
+                          color: 'gray'
                         }}
                       >
                         {it.name}
